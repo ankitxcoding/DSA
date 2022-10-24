@@ -5,7 +5,7 @@ int main() {
 
     char c;
 
-    cout<<"Enter any alphabet, digit or special character: ";
+    cout<<"Enter alphabet: ";
     cin>>c;
 
     if(isalpha(c)) {
@@ -20,3 +20,8 @@ int main() {
     return 0;
 
 }
+
+// Output-
+
+// Enter alphabet: a
+// Vowel

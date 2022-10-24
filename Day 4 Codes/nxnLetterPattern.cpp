@@ -8,18 +8,29 @@ int main() {
     cout<<"Enter number: ";
     cin>>n;
 
-    int row='A';
+    int row=1;
+    char c='A';
 
     while(row<=n) {
-        int col='A';
+        int col=1;
         while(col<=n) {
-            cout<<col<<"   ";
+            cout<<c<<"   ";
             col++;
         }
         cout<<"\n"<<endl;
         row++;
+        c++;
     }
 
     return 0; 
     
 }
+
+// Output-
+
+// Enter number: 3
+// A   A   A   
+
+// B   B   B   
+
+// C   C   C 

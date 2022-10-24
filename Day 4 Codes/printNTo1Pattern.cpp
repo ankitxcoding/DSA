@@ -23,3 +23,12 @@ int main() {
     return 0;
     
 }
+
+// Output-
+
+// Enter number: 3
+// 3   2   1   
+
+// 3   2   1   
+
+// 3   2   1   

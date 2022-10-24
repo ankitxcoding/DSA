@@ -26,3 +26,12 @@ int main() {
     return 0;
     
 }
+
+// Output-
+
+// Enter numbers of pattern for print: 3
+// *    
+
+// *    *    
+
+// *    *    *    
