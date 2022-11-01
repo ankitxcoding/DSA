@@ -18,3 +18,14 @@ int main() {
     return 0;
     
 }
+
+// Output-
+
+// Enter a number: 5
+// 5 is +ve number
+
+// Enter a number: -7
+// -7 is negative number
+
+// Enter a number: 0
+// It is zero

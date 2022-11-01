@@ -16,3 +16,14 @@ int main() {
         return 0;
         
 }
+
+// Output-
+
+// Enter a year for check: 2000
+// 2000 is a Leap Year
+
+// Enter a year for check: 2011
+// 2011 is not a Leap Year
+
+// Enter a year for check: 1900
+// 1900 is not a Leap Year

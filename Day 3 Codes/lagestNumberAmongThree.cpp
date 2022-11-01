@@ -24,3 +24,10 @@ int main() {
         return 0;
         
 }
+
+// Output-
+
+// Enter a: 7   
+// Enter b: 8
+// Enter c: 9
+// c is bigger than a & b

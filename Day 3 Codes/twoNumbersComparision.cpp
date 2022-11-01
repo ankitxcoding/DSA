@@ -19,3 +19,9 @@ int main() {
         return 0;
         
 }
+
+// Output-
+
+// Enter a: 5 
+// Enter b: 7
+// b is bigger than a

@@ -16,3 +16,8 @@ int main() {
     return 0;
     
 }
+
+// Output-
+
+// Enter the sides of triangle: 8 5 14
+// Given triangle is not valid!

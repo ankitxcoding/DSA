@@ -26,3 +26,12 @@ int main() {
     return 0;
     
 }
+
+// Output-
+
+// Enter number: 3
+// 9   8   7   
+
+// 6   5   4   
+
+// 3   2   1 

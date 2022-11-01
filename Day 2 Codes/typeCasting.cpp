@@ -12,3 +12,8 @@ int main() {
     return 0;
     
 }
+
+// Output-
+
+// 1.11111
+// 1

@@ -18,3 +18,14 @@ int main() {
         return 0;
         
 }
+
+// Output-
+
+// Enter sides of a tringle: 5 5 5
+// Equilateral Triangle
+
+// Enter sides of a tringle: 5 5 6
+// Isoscales Trianle
+
+// Enter sides of a tringle: 5 6 7
+// Scalene Triangle

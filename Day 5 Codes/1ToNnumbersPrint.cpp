@@ -17,3 +17,8 @@ int main() {
     return 0;
 
 }
+
+// Output-
+
+// Enter a number: 100
+// Sum of 1 to 100 numbers is 5050

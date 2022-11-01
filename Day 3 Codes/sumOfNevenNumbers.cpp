@@ -18,3 +18,8 @@ int main() {
     return 0;
     
 }
+
+// Output-
+
+// Enter the n: 100
+// The sum of n even numbers is: 2550

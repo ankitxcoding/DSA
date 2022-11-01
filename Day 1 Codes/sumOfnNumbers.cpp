@@ -16,8 +16,13 @@ int main() {
     // for(i=1; i<=n; i++)
     //     sum+=i;
     
-    // cout<<"The sum of 1-"<<n<<" is: "<<sum<<endl;
+    cout<<"The sum of 1-"<<n<<" is: "<<sum<<endl;
 
     return 0;
 
 }
+
+// Output-
+
+// Enter the n: 100
+// The sum of 1-100 is: 5050

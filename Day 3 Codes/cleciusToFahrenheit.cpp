@@ -15,3 +15,8 @@ int main () {
     return 0;
 
 }
+
+// Output-
+
+// Enter the value of Celcius for conversion: 37
+// 37 Celsius in Fahrenheit is: 98.6

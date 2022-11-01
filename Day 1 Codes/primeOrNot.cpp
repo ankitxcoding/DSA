@@ -34,3 +34,20 @@ int main() {
     jump :return 0;
     
 }
+
+// Output-
+
+// Enter a number: 5
+// Prime
+
+// Enter a number: 8
+// Not Prime
+
+// Enter a number: 0
+// Neither prime nor composite
+
+// Enter a number: 1
+// Neither prime nor composite
+
+// Enter a number: -7
+// Enter positive number

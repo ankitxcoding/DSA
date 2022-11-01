@@ -15,3 +15,8 @@ int main() {
     return 0;
     
 }
+
+// Output-
+
+// Enter the value of Fahrenheit for conversion: 98.6
+// 98.6 Fahrenheit in Celcius is: 37

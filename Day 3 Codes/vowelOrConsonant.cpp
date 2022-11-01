@@ -25,3 +25,6 @@ int main() {
 
 // Enter alphabet: a
 // Vowel
+
+// Enter alphabet: h
+// Consonant

@@ -16,3 +16,11 @@ int main() {
     return 0;
     
 }
+
+// Output-
+
+// Enter an integer: 10
+// 10 is even number
+
+// Enter an integer: 7
+// 7 is odd number
