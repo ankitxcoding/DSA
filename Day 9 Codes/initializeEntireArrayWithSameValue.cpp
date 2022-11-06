@@ -25,9 +25,3 @@ void printArrayElements(int arr[]) {
     }
 
 }
-
-// Output-
-
-// Enter the number of elements: 7
-// Enter the elements of array: 11 13 21 27 7 47 22
-// 11 13 21 27 7 47 22 
