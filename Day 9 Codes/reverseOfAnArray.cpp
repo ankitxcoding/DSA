@@ -25,6 +25,14 @@ void printArrayElements(int arr[]) {
 
     }
 
+    cout<<"Before Swap"<<endl;
+
+    for(i=0; i<n; i++) {
+
+        cout<<arr[i]<<" ";
+
+    }
+
     for(i=0; i<n/2; i++) {
 
         temp=arr[i];
@@ -33,6 +41,8 @@ void printArrayElements(int arr[]) {
 
     }
 
+    cout<<"\nAfter Swap"<<endl;
+
     for(i=0; i<n; i++){
 
         cout<<arr[i]<<" ";
@@ -40,3 +50,12 @@ void printArrayElements(int arr[]) {
     }
 
 }
+
+// Output-
+
+// Enter the number of elements: 10
+// Enter the elements of array: 0 1 2 3 4 5 6 7 8 9
+// Before Swap
+// 0 1 2 3 4 5 6 7 8 9 
+// After Swap
+// 9 8 7 6 5 4 3 2 1 0 
