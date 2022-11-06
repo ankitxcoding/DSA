@@ -21,3 +21,9 @@ int main() {
     return 0;
 
 }
+
+// Output-
+
+// Enter the array length: 10
+// Enter the intialization value: 5
+// 5 5 5 5 5 5 5 5 5 5
