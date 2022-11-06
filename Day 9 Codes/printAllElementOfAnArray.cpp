@@ -13,13 +13,13 @@ int main() {
 
 void printArrayElements(int arr[]) {
 
-    int i,n;
+    int i, n;
 
     cout<<"Enter the number of elements: ";
     cin>>n;
     cout<<"Enter the elements of array: ";
 
-    for(int i=0; i<n; i++) {
+    for(i=0; i<n; i++) {
         cin>>arr[i];
     }
 
