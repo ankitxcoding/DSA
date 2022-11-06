@@ -1,27 +1,23 @@
 #include<iostream>
 using namespace std;
 
-void printArrayElements(int arr[5]);
 
 int main() {
 
-    int arr[0];
+    int arrayLength, initializeValue;
 
-    printArrayElements(arr);
+    cout<<"Enter the array length: ";
+    cin>>arrayLength;
 
-}
+    cout<<"Enter the intialization value: ";
+    cin>>initializeValue;
 
-void printArrayElements(int arr[]) {
+    int arr[]={initializeValue};
 
-    int i, n;
-
-    cout<<"Enter the number of elements: ";
-    cin>>n;
-    cout<<"Enter the elements of array: ";
-
-    for(i=0; i<n; i++) {
-        cin>>arr[i];
-        cout<<arr[i]<<" ";
+    for(int i=0; i<arrayLength; i++) {
+        cout<<arr[0]<<" ";
     }
+
+    return 0;
 
 }
