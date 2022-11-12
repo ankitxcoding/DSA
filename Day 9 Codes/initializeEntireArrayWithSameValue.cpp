@@ -14,9 +14,8 @@ int main() {
 
     int arr[]={initializeValue};
 
-    for(int i=0; i<arrayLength; i++) {
+    for(int i=0; i<arrayLength; i++)
         cout<<arr[0]<<" ";
-    }
 
     return 0;
 

@@ -19,19 +19,13 @@ void printArrayElements(int arr[]) {
     cin>>n;
     cout<<"Enter the elements of array: ";
 
-    for(i=0; i<n; i++) {
-
+    for(i=0; i<n; i++)
         cin>>arr[i];
-
-    }
 
     cout<<"Before Swap"<<endl;
 
-    for(i=0; i<n; i++) {
-
+    for(i=0; i<n; i++)
         cout<<arr[i]<<" ";
-
-    }
 
     for(i=0; i<n/2; i++) {
 
@@ -43,11 +37,8 @@ void printArrayElements(int arr[]) {
 
     cout<<"\nAfter Swap"<<endl;
 
-    for(i=0; i<n; i++){
-
+    for(i=0; i<n; i++)
         cout<<arr[i]<<" ";
-
-    }
 
 }
 

@@ -29,9 +29,11 @@ int main() {
 
 // Output-
 
-// Enter numbers of pattern for print: 3
+// Enter numbers of pattern for print: 4
 // *    
 
 // *    *    
 
 // *    *    *    
+
+// *    *    *    *   

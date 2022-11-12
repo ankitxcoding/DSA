@@ -28,9 +28,11 @@ int main() {
 
 // Output-
 
-// Enter number: 3
+// Enter number: 4
 // 1   
 
 // 2   1   
 
-// 3   2   1  
+// 3   2   1   
+
+// 4   3   2   1

@@ -8,9 +8,9 @@ int main() {
     cout<<"Enter a number to find Factorial: ";
     cin>>n;
 
-    if(n==0) {
+    if(n==0)
         cout<<"Factorial of 0 is 1"<<endl;
-    }
+
     else if(n>=1) {
         while(i<=n) {
             f*=i;
@@ -18,9 +18,8 @@ int main() {
         }
         cout<<"Factorial of "<<n<<" is "<<f<<endl;
     }
-    else{
+    else
         cout<<"Enter +ve number"<<endl;
-    }
 
     return 0;
 

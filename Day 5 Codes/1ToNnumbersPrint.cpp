@@ -8,9 +8,8 @@ int main() {
     cout<<"Enter a number: ";
     cin>>n;
 
-    for(int i=1; i<=n ; i++) {
+    for(int i=1; i<=n ; i++)
         sum+=i;
-    }
 
     cout<<"Sum of 1 to "<<n<<" numbers is "<<sum<<endl;
 

@@ -15,7 +15,7 @@ int main() {
         int col=1;
 
         while(col<=row) {
-            cout<<"    "<<row;
+            cout<<row<<"    ";
             col++;
         }
 
@@ -29,9 +29,11 @@ int main() {
 
 // Outout-
 
-// Enter numbers of pattern for print: 3
-//     1
+// Enter numbers of pattern for print: 4
+// 1    
 
-//     2    2
+// 2    2    
 
-//     3    3    3
+// 3    3    3    
+
+// 4    4    4    4  

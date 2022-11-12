@@ -33,7 +33,11 @@ int main() {
 
         cout<<"\n"<<endl;
         row++;
-    }
+    }  
+
+    return 0;
+    
+}
 
 //     Output-
 
@@ -44,8 +48,4 @@ int main() {
 
 //     1   2   3   2   1   
 
-// 1   2   3   4   3   2   1   
-
-    return 0;
-    
-}
+// 1   2   3   4   3   2   1 
