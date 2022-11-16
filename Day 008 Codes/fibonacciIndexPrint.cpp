@@ -18,7 +18,7 @@ void fibonnaci() {
 
     cout<<x<<" "<<y<<" ";
 
-    for(i=0; i<n-i/2 ; i++) {
+    for(i=0; i<n-i/2; i++) {
         i=x+y;
         x=y;
         y=i;
