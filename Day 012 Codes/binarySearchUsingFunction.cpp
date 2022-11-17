@@ -57,3 +57,29 @@ int binarySearch(int arr[]) {
 
     return -1;
 }
+
+// Output-
+
+// Enter the lengh of array: 10
+// Enter elements in ascending order: 10 11 12 13 14 15 16 17 18 19
+// Enter the element for search: 10
+// Array: 10 11 12 13 14 15 16 17 18 19 
+// Element found at index possition 0
+
+// Enter the lengh of array: 10
+// Enter elements in ascending order: 10 11 12 13 14 15 16 17 18 19
+// Enter the element for search: 19
+// Array: 10 11 12 13 14 15 16 17 18 19 
+// Element found at index possition 9
+
+// Enter the lengh of array: 10
+// Enter elements in ascending order: 10 11 12 13 14 15 16 17 18 19
+// Enter the element for search: 15
+// Array: 10 11 12 13 14 15 16 17 18 19 
+// Element found at index possition 5
+
+// Enter the lengh of array: 10
+// Enter elements in ascending order: 10 11 12 13 14 15 16 17 18 19
+// Enter the element for search: 7
+// Array: 10 11 12 13 14 15 16 17 18 19 
+// Not Found!
