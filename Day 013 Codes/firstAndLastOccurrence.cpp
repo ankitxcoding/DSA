@@ -89,3 +89,12 @@ int lastOccurrence(int arr[], int x, int size) {
     return answer;
     
 }
+
+// Output-
+
+// Enter the lengh of array: 7
+// Enter elements in ascending order: 1 2 3 3 3 3 5
+// Enter the element for search: 3
+// Array: 1 2 3 3 3 3 5 
+// First Occurrence of element at index: 2
+// Last Occurrence of element at index: 5
