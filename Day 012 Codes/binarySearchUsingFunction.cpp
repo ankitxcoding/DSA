@@ -1,30 +1,16 @@
 #include<iostream>
 using namespace std;
 
-int binarySearch(int arr[]);
+int binarySearch(int arr[], int x, int size);
 
 int main() {
 
-    int arr[0], index;
-
-    index=binarySearch(arr);
-
-    if(index == -1)
-        cout<<"\nNot Found!";
-    else
-        cout<<"\nElement found at index possition "<<index;
-
-    return 0;
-}
-
-int binarySearch(int arr[]) {
-
-    int size, i, x, low, high, mid;
+    int index, size, x, i;
 
     cout<<"Enter the lengh of array: ";
     cin>>size;
 
-    arr[size];
+    int arr[size];
 
     cout<<"Enter elements in ascending order: ";
     for(i=0; i<size; i++)
@@ -36,6 +22,20 @@ int binarySearch(int arr[]) {
     cout<<"Array: ";
     for(i=0; i<size; i++)
         cout<<arr[i]<<" ";
+
+    index=binarySearch(arr, x, size);
+
+    if(index == -1)
+        cout<<"\nNot Found!";
+    else
+        cout<<"\nElement found at index possition "<<index;
+
+    return 0;
+}
+
+int binarySearch(int arr[], int x, int size) {
+
+    int i, low, high, mid;
 
     low=0;
     high=size;
