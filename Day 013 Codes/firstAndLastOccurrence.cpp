@@ -25,10 +25,10 @@ int main() {
         cout<<arr[i]<<" ";
 
     first=firstOccurrence(arr, x, size);
-    cout<<"\nFirst Occurrence of element at index: "<<first<<endl;
+    cout<<"\nFirst Occurrence of element "<<x<<" is at index: "<<first<<endl;
 
     last=lastOccurrence(arr, x, size);
-    cout<<"Last Occurrence of element at index: "<<last<<endl;
+    cout<<"Last Occurrence of element "<<x<<" is at index: "<<last<<endl;
 
     return 0;
 
@@ -96,5 +96,5 @@ int lastOccurrence(int arr[], int x, int size) {
 // Enter elements in ascending order: 1 2 3 3 3 3 5
 // Enter the element for search: 3
 // Array: 1 2 3 3 3 3 5 
-// First Occurrence of element at index: 2
-// Last Occurrence of element at index: 5
+// First Occurrence of element 3 is at index: 2
+// Last Occurrence of element 3 is at index: 5
