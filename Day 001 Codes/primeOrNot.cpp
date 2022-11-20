@@ -19,9 +19,11 @@ int main() {
         goto jump;
     }
 
-    for(int i=2; i<num; i++)
+    for(int i=2; i<num; i++) {
             if(num%i==0)
                 isPrime=false;
+                break;
+    }
 
         if(isPrime)
             cout<<"Prime"<<endl;
