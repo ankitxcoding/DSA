@@ -24,7 +24,7 @@ int main() {
                 isPrime=false;
 
         if(isPrime)
-          cout<<"Prime"<<endl;
+            cout<<"Prime"<<endl;
         else
         {
             cout<<"Not Prime"<<endl;
