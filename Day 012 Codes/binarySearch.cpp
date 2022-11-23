@@ -8,7 +8,7 @@ int main() {
     cout<<"Enter the size of array: ";
     cin>>size;
 
-    int arr[size];
+    int arr[size-1];
 
     cout<<"Enter the elements of array in ascending order: ";
     for(i=0; i<size; i++)
@@ -22,7 +22,7 @@ int main() {
         cout<<arr[i]<<" ";
 
     low=0;
-    high=size;
+    high=size-1;
     mid=low+(high-low)/2;
 
     while(low<=high) {

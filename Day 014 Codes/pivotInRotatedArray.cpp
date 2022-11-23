@@ -10,7 +10,7 @@ int main() {
     cout<<"Enter the lengh of array: ";
     cin>>size;
 
-    int arr[size];
+    int arr[size-1];
 
     cout<<"Enter the elements of rotated array: ";
     for(i=0; i<size; i++)
@@ -32,7 +32,7 @@ int pivotInRotatedArray(int arr[], int size) {
     int low, mid, high;
 
     low=0;
-    high=size;
+    high=size-1;
     mid=low+(high-low)/2;
 
     while(low<high) {

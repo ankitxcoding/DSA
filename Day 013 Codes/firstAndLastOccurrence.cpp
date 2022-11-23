@@ -11,7 +11,7 @@ int main() {
     cout<<"Enter the lengh of array: ";
     cin>>size;
 
-    int arr[size];
+    int arr[size-1];
 
     cout<<"Enter elements in ascending order: ";
     for(i=0; i<size; i++)
@@ -39,7 +39,7 @@ int firstOccurrence(int arr[], int x, int size) {
     int low, mid, high, answer;
 
     low=0;
-    high=size;
+    high=size-1;
     mid=low+(high-low)/2;
 
     while(low<=high) {
@@ -67,7 +67,7 @@ int lastOccurrence(int arr[], int x, int size) {
     int low, mid, high, answer;
 
     low=0;
-    high=size;
+    high=size-1;
     mid=low+(high-low)/2;
 
     while(low<=high) {
