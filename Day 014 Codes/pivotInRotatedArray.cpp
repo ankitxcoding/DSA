@@ -10,7 +10,7 @@ int main() {
     cout<<"Enter the lengh of array: ";
     cin>>size;
 
-    int arr[size-1];
+    int arr[size];
 
     cout<<"Enter the elements of rotated array: ";
     for(i=0; i<size; i++)
