@@ -30,7 +30,7 @@ int main() {
 
 }
 
- void selectionSort(int arr[], int size) {
+void selectionSort(int arr[], int size) {
 
     int minIndex, i, j, temp;
 
