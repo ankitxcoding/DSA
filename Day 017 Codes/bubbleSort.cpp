@@ -30,7 +30,7 @@ int main() {
 
 }
 
- void bubbleSort(int arr[], int size) {
+void bubbleSort(int arr[], int size) {
 
     int i, j, temp;
 
