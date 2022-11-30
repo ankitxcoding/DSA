@@ -1,1 +1,26 @@
-There Are No Codes.
+Sorting Algorithm	        Time Complexity - Best	        Time Complexity - Worst	        Time Complexity - Average	        Space Complexity            Stability
+
+
+Linear Search                        1                               n                               n                                1                         
+
+Binary Search                        1                               logn                            logn                             1                         
+
+Bubble Sort	                         n	                             n²	                             n²	                              1                         Yes
+
+Selection Sort	                     n²	                             n²	                             n²	                              1                         No
+
+Insertion Sort	                     n	                             n²	                             n²	                              1                         Yes
+
+Merge Sort	                         nlogn	                         nlogn	                         nlogn	                          n                         Yes
+
+Quicksort	                         nlogn	                         n²	                             nlogn	                          logn                      No
+
+Counting Sort	                     n+k	                         n+k	                         n+k	                          max                       Yes
+
+Radix Sort	                         n+k	                         n+k	                         n+k	                          max                       Yes
+
+Bucket Sort	                         n+k	                         n²	                             n	                              n+k                       Yes
+
+Heap Sort	                         nlogn	                         nlogn	                         nlogn	                          1                         No
+
+Shell Sort	                         nlogn	                         n²	                             nlogn	                          1                         No
