@@ -8,10 +8,10 @@ int main() {
 
     int size, element;
 
-    cout<<"Enter the length of array: ";
+    cout<<"Enter the length of deque: ";
     cin>>size;
 
-    cout<<"Enter the elements of array: ";
+    cout<<"Enter the elements of deque: ";
 
     for(int i=0; i<size; i++) {
         cin>>element;
