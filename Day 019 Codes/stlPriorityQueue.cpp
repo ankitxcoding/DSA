@@ -33,3 +33,17 @@ int main() {
     return 0;
 
 }
+
+// Output-
+
+// Enter the size of priorityQueueMax: 5
+// Enter the elements of priorityQueueMax: 1 3 5 4 2
+// The size of priorityQueueMax: 5
+// priorityQueueMax is empty or not: 0
+// priorityQueueMax: 
+// 5
+// 4
+// 3
+// 2
+// 1
+// priorityQueueMax is empty or not: 1
