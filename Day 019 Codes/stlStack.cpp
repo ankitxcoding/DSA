@@ -8,7 +8,7 @@ int main() {
 
     int size, element;
 
-    cout<<"Enter the size of stack: ";
+    cout<<"Enter the length of stack: ";
     cin>>size;
 
     cout<<"Enter the elements of stack: ";
@@ -36,7 +36,7 @@ int main() {
 
 // Output-
 
-// Enter the size of stack: 5
+// Enter the length of stack: 5
 // Enter the elements of stack: 5 4 3 2 1
 // The size of stack: 5
 // Stack is empty or not: 0
