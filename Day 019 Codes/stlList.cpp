@@ -8,7 +8,7 @@ int main() {
 
     int size, element;
 
-    cout<<"Enter the length of list: ";
+    cout<<"Enter the size of list: ";
     cin>>size;
 
     cout<<"Enter the elements of list: ";
@@ -63,7 +63,7 @@ int main() {
 
 }
 
-// Enter the length of list: 5
+// Enter the size of list: 5
 // Enter the elements of list: 2 3 4 5 6
 // Deque: 2 3 4 5 6 
 // Front: 2
