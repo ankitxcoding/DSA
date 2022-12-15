@@ -8,7 +8,7 @@ int main() {
 
     int size, element;
 
-    cout<<"Enter the length of queue: ";
+    cout<<"Enter the size of queue: ";
     cin>>size;
 
     cout<<"Enter the elements of queue: ";
@@ -36,7 +36,7 @@ int main() {
 
 // Output-
 
-// Enter the length of queue: 5
+// Enter the size of queue: 5
 // Enter the elements of queue: 1 2 3 4 5
 // The size of queue: 5
 // Stack is empty or not: 0
