@@ -20,15 +20,15 @@ int main() {
 
     cout<<"The size of queue: "<<queue.size()<<endl;
 
-    cout<<"Stack is empty or not: "<<queue.empty()<<endl;
+    cout<<"Queue is empty or not: "<<queue.empty()<<endl;
 
-    cout<<"Stack: ";
+    cout<<"Queue: ";
     while(!queue.empty()) {
         cout<<"\n"<<queue.front();
         queue.pop();
     }
 
-    cout<<"\nStack is empty or not: "<<queue.empty();
+    cout<<"\nQueue is empty or not: "<<queue.empty();
     
     return 0;
 
@@ -39,11 +39,11 @@ int main() {
 // Enter the size of queue: 5
 // Enter the elements of queue: 1 2 3 4 5
 // The size of queue: 5
-// Stack is empty or not: 0
-// Stack: 
+// Queue is empty or not: 0
+// Queue: 
 // 1
 // 2
 // 3
 // 4
 // 5
-// Stack is empty or not: 1
+// Queue is empty or not: 1
