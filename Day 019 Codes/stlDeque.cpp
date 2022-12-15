@@ -8,7 +8,7 @@ int main() {
 
     int size, element;
 
-    cout<<"Enter the length of deque: ";
+    cout<<"Enter the size of deque: ";
     cin>>size;
 
     cout<<"Enter the elements of deque: ";
@@ -63,7 +63,7 @@ int main() {
 
 // Output-
 
-// Enter the length of array: 5
+// Enter the size of array: 5
 // Enter the elements of array: 2 3 4 5 6
 // Deque: 2 3 4 5 6 
 // Front: 2
