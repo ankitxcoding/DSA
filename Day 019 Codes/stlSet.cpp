@@ -28,6 +28,8 @@ int main() {
 
     cout<<"\nElement 5 is present or not: "<<set.count(5);
 
+    cout<<"\nElement -5 is present or not: "<<set.count(-5);
+
     // auto it=set.find(3);
 
     // cout<<"\nIterator is: "<<*it;
@@ -44,3 +46,4 @@ int main() {
 // Set is empty or not: 0
 // Set: 1 2 3 4 5 
 // Element 5 is present or not: 1
+// Element -5 is present or not: 0
