@@ -26,6 +26,7 @@ int main() {
     printArray(vArr);
 
     // function is not working
+    // reverseArray(vArr, size);
 
     int i=0, j=size-1;
 
@@ -57,3 +58,10 @@ void reverseArray(vector<int> vArr, int size) {
         j--;
     }
 }
+
+// Output-
+
+// Enter the size of array: 5
+// Enter the elements of array: 1 2 3 4 5
+// Before Swaping: 1 2 3 4 5 
+// After Swaping: 5 4 3 2 1
