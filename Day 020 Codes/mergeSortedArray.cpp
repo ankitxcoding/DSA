@@ -1,5 +1,4 @@
 #include<iostream>
-#include<vector>
 using namespace std;
 
 int main() {
@@ -23,9 +22,6 @@ int main() {
     cout<<"Enter the elements of first array: ";
     for(int i=0; i<m; i++)
         cin>>arr2[i];
-
-    // int arr1[]={1, 3, 5, 7 ,9};
-    // int arr2[]={2, 4, 6, 8};
 
     n=sizeof(arr1)/sizeof(arr1[0]);
     m=sizeof(arr2)/sizeof(arr2[0]);
@@ -65,6 +61,8 @@ int main() {
     cout<<"\nSorted Array: ";
     for(int i=0; i<size; i++)
         cout<<arr3[i]<<" ";
+
+    // This piece of code not working with vectors
 }
 
 // Output-
