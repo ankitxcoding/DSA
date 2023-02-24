@@ -3,7 +3,7 @@
 using namespace std;
 
 void printArray(vector<int> vArr);
-void reverseArray(vector<int> vArr, int size);
+void reverseArray(vector<int>& vArr, int size);
 
 int main() {
 
@@ -25,16 +25,7 @@ int main() {
 
     printArray(vArr);
 
-    // function is not working
-    // reverseArray(vArr, size);
-
-    int i=0, j=size-1;
-
-    while(i<=j) {
-        swap(vArr[i], vArr[j]);
-        i++;
-        j--;
-    }
+    reverseArray(vArr, size);
 
     cout<<"\nAfter Swaping: ";
 
@@ -48,7 +39,7 @@ void printArray(vector<int> vArr) {
         cout<<k<<" ";
 }
 
-void reverseArray(vector<int> vArr, int size) {
+void reverseArray(vector<int>& vArr, int size) {
 
     int i=0, j=size-1;
 
