@@ -5,7 +5,7 @@ class Solution {
 public:
     void moveZeroes(vector<int>& nums) {
 
-        int nonZero=0, count=0;
+        int nonZero=0;
 
         int size=nums.size();
 
